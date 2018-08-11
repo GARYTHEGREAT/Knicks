@@ -1,0 +1,54 @@
+@font-face{
+    font-family: knicksFont;
+src: url(fonts/NBAKNICK.TTF);
+font-weight:bold;
+
+}
+
+
+
+
+
+body{
+    background-color: rgb(247, 126, 12);
+    
+    }
+    h1{
+    background-color: rgb(4, 0, 255); 
+    color: rgb(192,196,199);
+    text-transform: uppercase;
+    font-family: knicksFont;
+    font-size: 400%;
+    
+
+
+    }
+
+        img.align-right {float: right; margin-right: 25px }
+
+
+    h2{
+    color: black;
+    font-weight: bold;
+    text-align:justify;
+    
+
+    }
+    
+    li:first-letter {font-size: 175% 
+    }
+
+    li:first-letter {color:rgb(4, 0, 255)
+    }
+
+    #answers {
+        color:rgb(4, 0, 255);
+        text-indent:20px
+        
+    
+    
+    
+    }
+    
+    
+    

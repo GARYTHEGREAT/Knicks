@@ -21,6 +21,7 @@ function surveyFunc () {
     let myName = prompt ("What's your name?");
     console.log (myName);
     let mySex = confirm ("Are you a male?");
+    console.log (mySex)
     let myHeight = prompt ("What's your Height?");
     console.log (myHeight);
     let myCity = prompt ("What is your city of birth?");
@@ -28,6 +29,7 @@ function surveyFunc () {
     let myPartner = prompt ("What's your partner's  name?");
     console.log (myPartner);
     let myReligion = prompt ("What's your religion?");
+    console.log (myReligion)
     let myRace = prompt ("What's your Race?");
     console.log (myRace);
 
@@ -35,11 +37,19 @@ function surveyFunc () {
 
 
     if (mySex) {
-    console.log ("Hello my name is " + myName + ". I am a male and I am " + myHeight + ' tall.' + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " " + myReligion + "."); 
-    alert ("Hello my name is " + myName + ". I am a male and I am " + myHeight + ' tall.' + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " "+ myReligion + "."); 
-    } else {console.log("Hello my name is " + myName + ". I am a female and I am " + myHeight + " tall." + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " " + myReligion + ".");
-    alert ("Hello my name is " + myName + ". I am a female and I am " + myHeight + " tall." + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " " + myReligion + ".");
+    console.log ("Hello my name is " + myName + ". I am a male and I am " + myHeight + ' tall.' + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " " + myReligion + "." + " I am a " + " " + myRace + "."); 
+    alert ("Hello my name is " + myName + ". I am a male and I am " + myHeight + ' tall.' + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " "+ myReligion + "." + " I am a " + " " + myRace +  "."); 
+    } else {console.log("Hello my name is " + myName + ". I am a female and I am " + myHeight + " tall." + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " " + myReligion + "." + " I am a " + " " + myRace +  ".");
+    alert ("Hello my name is " + myName + ". I am a female and I am " + myHeight + " tall." + " I was born in " +  myCity + "." + " My partner's name is " + myPartner + "." + " I am a practicing" + " " + myReligion + "." + " I am a " + " " + myRace + ".");
     }
+
+
+
+
+
+
+
+
 
 
     let elName = document.getElementById('name');
